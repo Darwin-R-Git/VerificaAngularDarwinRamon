@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./third-component.component.css']
 })
 export class ThirdComponentComponent implements OnInit {
-  third:string
+   burzum:string
   constructor() { 
-    this.third = "app"
+    this.burzum = "terzo"
   }
 
   ngOnInit(): void {
